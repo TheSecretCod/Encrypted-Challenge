@@ -1,0 +1,54 @@
+* {
+    background: #020204;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.header_intro {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+}
+
+.campo_intro{
+    color: #22b455;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    gap: 10px;
+    
+}
+
+.campo_intro p{
+    display: inline-block; 
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.boton_intro{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 400px;
+
+
+}
+
+
+.button_comenzar {
+    border: 1px solid #B52269;
+    border-radius: 24px;
+    color:#B52269;
+    cursor: pointer;
+    height: 70px;
+    width: 328px;
+}
+
+

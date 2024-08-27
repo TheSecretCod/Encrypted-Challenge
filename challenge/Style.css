@@ -1,15 +1,28 @@
-*{
-    background: #9A65E0;
-    font-family: 'inter';
+* {
+    background: #020204;
+    font-family: 'Share Tech Mono', monospace;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+
 .logo{
     padding-top: 10px;
     margin-left: 10px;
     width: 5%;
+}
+
+.header_menu_inicio{
+    display: flex;
+    font-size: 15px;
+    
 }
 
 main{
@@ -20,23 +33,23 @@ main{
 
 .text-area{
     border: none;
-    color: #0A3871;
+    color: #22b455;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
-::placeholder {color: #0A3871;}
+::placeholder {color: #22b455;}
     .text-area:focus {
         outline: none;
     }
 
 .mensaje {
-    background: white;
+    background: #0c0c0c;
     background-image: url("/imagenes/encriptado.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: #0A3871;
+    color: #22b455;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
@@ -54,20 +67,18 @@ main{
 }
 
 .btn-encriptar {
-    background-color: #0A3871;
-    border:1px solid #0A3871;
+    border:1px solid #c501e2;
     border-radius: 24px;
-    color: white;
+    color: #c501e2;
     cursor:pointer;
     height: 67px;
     width: 328px;
 }
 
 .btn-desencriptar {
-    background: #d8dfe8;
-    border: 1px solid #0A3871;
+    border: 1px solid #e7c500;
     border-radius: 24px;
-    color:#0A3871;
+    color:#e7c500;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
@@ -75,9 +86,9 @@ main{
 }
 
 .copiar {
-    border: 1px solid #0A3871;
+    border: 1px solid #5800FF;
     border-radius: 24px;
-    color: #0A3871;
+    color: #5800FF;
     cursor: pointer;
     height: 67px;
     margin-left: 108px;

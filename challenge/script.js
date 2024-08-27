@@ -67,3 +67,5 @@ function copiarTexto() {
 }
 
 document.getElementById("btnCopiar").addEventListener("click", copiarTexto);
+
+
